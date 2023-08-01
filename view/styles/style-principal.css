@@ -5,7 +5,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    --cor-azul: #2f86d6;
+}
+
                 /* estilização do header */
+
+span{
+    color: var(--cor-azul);
+}
 
 header{
     background-color: #ffffff;
@@ -53,10 +61,9 @@ header{
 
             /* Estilizando a sessão do bannner */
 .sessao-banner{
-    background-color: #2f86d6;
+    background-color: var(--cor-azul);
     margin-top: 20px;
     height: 700px;
-    /* position: relative; */
 } 
 
 .container-banner{
@@ -64,7 +71,6 @@ header{
 
     width: 1100px;
     height: 700px;
-    /* background-color: red; */
     position: relative;
 }
 
@@ -107,13 +113,12 @@ header{
     width: 830px;
     margin: 0 auto;
     position: relative;
-    /* background-color: red; */
 }
 
 .botao-tabela-de-precos{
     color: white;
-    background-color: #2f86d6;
-    border: 5px solid #2f86d6;
+    background-color: var(--cor-azul);
+    border: 5px solid var(--cor-azul);
     text-align: center;
 
     padding: 5px;
@@ -144,10 +149,6 @@ header{
     padding-top: 130px;
 }
 
-.container-servicos-hospedagem span{
-    color: #2f86d6;
-}
-
 .sessao-servicos-hospedagem img{
     width: 70px;
     margin-left: 80px;
@@ -167,3 +168,44 @@ article{
 }
 
             /* Finalizando a estilização da sessão dos serviços de hospedagem */
+
+            /* iniciando a estilização da sessão das informações de hospedagem */
+
+.sessao-informacao-hospedagem{
+    background-color: white;
+    height: 700px;
+}
+
+.sessao-informacao-hospedagem > h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.sessao-informacao-hospedagem img{
+    width: 100px;
+    margin-left: 50px;
+}
+
+table{
+    background-color: white;
+    border: 2px solid rgb(245, 243, 243);
+    border-radius: 5px;
+    box-shadow: -1px 2px 20px 10px #6aa7e0;
+    width: 880px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+th, td{
+    padding-top: 25px;
+}
+
+td > p{
+    padding-bottom: 20px;
+}
+
+.usuario,.espaco,.suporte{
+    background-color: #f6f6f6;
+}

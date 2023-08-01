@@ -1,0 +1,126 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+                /* estilização do header */
+
+header{
+    background-color: #ffffff;
+    position: relative;
+}
+.conteiner-logo{
+    margin-top: 15px;
+    margin-left: 300px;
+    position: relative;
+}
+
+.logo{
+    width: 90px;
+}
+
+.div-texto{
+    position: absolute;
+    left: 100px;
+    bottom: 25px;
+}
+
+.div-texto > p{
+    color: #4195de;
+}
+
+.links-navegacao{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 700px;
+    bottom: 50px;
+}
+
+.links-navegacao > li, a{
+    text-decoration: none;
+    color: #293b46;
+    padding-right: 30px;
+}
+
+            /* Finalizando a estilização do header */
+
+
+            /* Iniciando a estlização do main */
+
+
+            /* Estilizando a sessão do bannner */
+.sessao-banner{
+    background-color: #2f86d6;
+    margin-top: 20px;
+    height: 700px;
+    /* position: relative; */
+} 
+
+.container-banner{
+    margin: 0 auto;
+
+    width: 1100px;
+    height: 700px;
+    /* background-color: red; */
+    position: relative;
+}
+
+.texto-banner{
+    color: white;
+    width: 330px;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.texto-banner > p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.img-banner{
+    position: absolute;
+    top: 130px;
+    left: 550px;
+}
+
+            /* Finalizando a estilização da sessão banner */
+
+            /* Iniciando a estilização da sessão de anuncio 1 */
+            
+.sessao-anuncio_1{
+    background-color: #23303e;
+    color: white;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.container-anuncio_1{
+    width: 830px;
+    margin: 0 auto;
+    position: relative;
+    /* background-color: red; */
+}
+
+.botao-tabela-de-precos{
+    color: white;
+    background-color: #2f86d6;
+    border: 5px solid #2f86d6;
+    text-align: center;
+
+    padding: 5px;
+
+    position: absolute;
+    left: 600px;
+    bottom: 4px;
+}
+
+            /* Finalizando a estização da sessão do anuncio 1 */

@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlfaTech</title>
+    <link rel="stylesheet" href="./styles/style-principal.css">
 </head>
 <body>
     <header>
-        <img src="./assets/logo-icone.png" alt="" title="">
-        <h1>AlfaTech</h1>
-        <p>Soluções em hospedagem</p>
-
-        <nav>
-            <ul type="none">
+        <div class="conteiner-logo">
+            <img src="./assets/logo-icone.png" alt="" title="" class="logo">
+            <div class="div-texto">
+                <h1>AlfaTech</h1>
+                <p>Soluções em hospedagem</p>
+            </div>
+        </div>
+       
+        <nav class="navegacao-principal">
+            <ul type="none" class="links-navegacao">
                 <li><a href="">Informações</a></li>
                 <li><a href="">planos</a></li>
                 <li><a href="">preços</a></li>
@@ -22,25 +27,29 @@
     </header>
 
     <main>
-        <section>
-            <div>
-                <p>Simples - Fácil de usar - 10x mais rápido</p>
-                <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
-                <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
-            </div>
-            <div>
-                <img src="./assets/imagem-banner.png" alt="" title="">
-            </div>
-        </section>
-
-        <section>
-            <h3>Hospede o seu site por apenas R$29 por mês.</h3>
-            <p>Também temos planos gratuitos. Adquira já o seu.</p>
-            <div>
-                <img src="./assets/icone-foguete.png" alt="" title="">
-                <a href="./tabela-de-precos.html">TABELA DE PREÇOS</a>
+        <section class="sessao-banner">
+            <div class="container-banner">
+                <div class="texto-banner">
+                    <p>Simples - Fácil de usar - 10x mais rápido</p>
+                    <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
+                    <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
+                </div>
+                <div class="img-banner">
+                    <img src="./assets/imagem-banner.png" alt="" title="">
+                </div>
             </div>
             
+        </section>
+
+        <section class="sessao-anuncio_1">
+            <div class="container-anuncio_1">
+                <h3>Hospede o seu site por apenas R$29 por mês.</h3>
+                <p>Também temos planos gratuitos. Adquira já o seu.</p>
+                <div class="botao-tabela-de-precos">
+                    <img src="./assets/icone-foguete.png" alt="" title="">
+                    <a href="./tabela-de-precos.html">TABELA DE PREÇOS</a>
+                </div>
+            </div>
         </section>
 
         <section>

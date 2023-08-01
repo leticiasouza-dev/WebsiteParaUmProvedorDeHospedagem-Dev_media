@@ -124,3 +124,46 @@ header{
 }
 
             /* Finalizando a estização da sessão do anuncio 1 */
+
+            /*  iniciando a estilização da sessão de serviços de hospedagem*/
+
+.sessao-servicos-hospedagem{
+    background-color: white;
+}
+
+.container-servicos-hospedagem{
+    width: 830px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
+
+.container-servicos-hospedagem > h3{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.container-servicos-hospedagem span{
+    color: #2f86d6;
+}
+
+.sessao-servicos-hospedagem img{
+    width: 70px;
+    margin-left: 80px;
+}
+
+.container-servicos{
+    margin: 50px 35px;
+}
+
+.container-servicos  h4{
+    padding: 15px 0;
+}
+article{
+    width: 250px;
+    display: inline-block;
+
+}
+
+            /* Finalizando a estilização da sessão dos serviços de hospedagem */

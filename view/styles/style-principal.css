@@ -47,7 +47,7 @@ header{
     bottom: 50px;
 }
 
-.links-navegacao > li, a{
+.links-navegacao > li, .acesso{
     text-decoration: none;
     color: #293b46;
     padding-right: 30px;
@@ -107,6 +107,7 @@ header{
     color: white;
     height: 100px;
     padding-top: 30px;
+    
 }
 
 .container-anuncio_1{
@@ -116,7 +117,6 @@ header{
 }
 
 .botao-tabela-de-precos{
-    color: white;
     background-color: var(--cor-azul);
     border: 5px solid var(--cor-azul);
     text-align: center;
@@ -126,6 +126,12 @@ header{
     position: absolute;
     left: 600px;
     bottom: 4px;
+
+}
+
+.botao-tabela-de-precos > a{
+    color: white;
+    text-decoration: none;
 }
 
             /* Finalizando a estização da sessão do anuncio 1 */
@@ -208,4 +214,72 @@ td > p{
 
 .usuario,.espaco,.suporte{
     background-color: #f6f6f6;
+}
+
+            /* Finalizando a estilização da sessão de infomrações de hospedagem */
+
+            /* Iniciando a estilização da sessão de anuncio 2*/
+
+.sessao-anuncio_2{
+    background-color: var(--cor-azul);
+    color: white;
+    height: 100px;
+    position: relative;
+}
+
+.sessao-anuncio_2 > h3{
+    width: 400px;
+    padding-top:35px;
+    margin-left: 200px;
+}
+
+.botao-tabela-de-precos-2{
+    background-color: #23303e;
+    border: 2px solid #23303e;
+    position: absolute;
+    top: 35px;
+    right: 250px;
+    padding: 8px 5px ;
+    text-transform: uppercase;
+}
+
+.botao-tabela-de-precos-2 > a{
+    color: white;
+    text-decoration: none;
+}
+
+            /* Finalizando a estilização da sessão de anuncio 2  */
+
+            /* Iniciando a estilização do radapé da minha página princiapl */
+
+footer{
+    background-color: white;
+    
+}
+
+.container-rodape{
+    /* background-color: blue; */
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.container-rodape_logo{
+    /* background-color: red; */
+    position: relative;
+    width: 250px;
+    margin: 0 170px;
+    padding-top: 50px;
+}
+
+footer ul{
+    /* background-color: yellow; */
+    margin: 60px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+footer  h4{
+    text-transform: uppercase;
+    text-align: center;
 }

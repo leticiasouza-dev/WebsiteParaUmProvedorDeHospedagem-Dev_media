@@ -18,10 +18,10 @@
        
         <nav class="navegacao-principal">
             <ul type="none" class="links-navegacao">
-                <li><a href="">Informações</a></li>
-                <li><a href="">planos</a></li>
-                <li><a href="">preços</a></li>
-                <li><a href="">contato</a></li>
+                <li><a href="#Informacoes" class="acesso">Informações</a ></li>
+                <li><a href="#planos" class="acesso">planos</a></li>
+                <li><a href="./tabela-de-precos.html" class="acesso">preços</a></li>
+                <li><a href="#contato" class="acesso">contato</a></li>
             </ul>
         </nav>
     </header>
@@ -52,7 +52,7 @@
             </div>
         </section>
 
-        <section class="sessao-servicos-hospedagem">
+        <section class="sessao-servicos-hospedagem" id="Informacoes">
             <div class="container-servicos-hospedagem">
                 <h3>Existem diversos serviços de hospedagem de sites. Porque você deve <span>nos escolher?</span></h3>
                 <div class="container-servicos">
@@ -79,7 +79,7 @@
             
         </section>
 
-        <section class="sessao-informacao-hospedagem">
+        <section class="sessao-informacao-hospedagem" id="planos">
             <h3>Pague <span>somente</span>  pelo que for usar. Sem cobranças adicionais!</h3>
 
             <table>
@@ -145,29 +145,33 @@
             </table>
         </section>
 
-        <section>
+        <section class="sessao-anuncio_2">
             <h3>Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h3>
-            <div>
+            <div class="botao-tabela-de-precos-2">
                 <img src="./assets/icone-foguete.png" alt="">
                 <a href="./tabela-de-precos.html">tabela de preços</a>
             </div>
         </section>
 
-        <footer>
-            <div>
-                <img src="./assets/logo-icone.png" alt="">
-                <h3>AlfaTech</h3>
-                <p>soluçoes em hospedagem</p>
+        <footer id="contato">
+            <div class="container-rodape">
+                <div class="container-rodape_logo">
+                    <img src="./assets/logo-icone.png" alt="" class="logo">
+                    <div class="div-texto">
+                        <h3>AlfaTech</h3>
+                        <p>soluçoes em hospedagem</p>
+                    </div>
+                </div>
+
+                <ul type="none">
+                    <li>Telefone & Whatsapp: (21) 99999-5555</li>
+                    <li>E-mail: suporte@alfatech.com</li>
+                    <li>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</li>
+                    <li>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</li>
+                </ul>
+
+                <h4>Desenvolvido por letícia souza</h4>
             </div>
-
-            <ul type="none">
-                <li>Telefone & Whatsapp: (21) 99999-5555</li>
-                <li>E-mail: suporte@alfatech.com</li>
-                <li>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</li>
-                <li>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</li>
-            </ul>
-
-            <h4>Desenvolvido por letícia souza</h4>
         </footer>
     </main>
 </body>

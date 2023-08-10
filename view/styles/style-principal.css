@@ -17,22 +17,25 @@ span{
 
 header{
     background-color: #ffffff;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; 
 }
 .conteiner-logo{
-    margin-top: 15px;
-    margin-left: 300px;
-    position: relative;
+    max-width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao-principal{
+    display: flex;
 }
 
 .logo{
-    width: 90px;
-}
-
-.div-texto{
-    position: absolute;
-    left: 100px;
-    bottom: 25px;
+    width: 80px;
+    height: 80px;
 }
 
 .div-texto > p{
@@ -40,17 +43,18 @@ header{
 }
 
 .links-navegacao{
+    max-width: 350px;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
     align-items: center;
-    position: absolute;
-    left: 700px;
-    bottom: 50px;
+    
 }
 
 .links-navegacao > li, .acesso{
     text-decoration: none;
     color: #293b46;
-    padding-right: 30px;
 }
 
             /* Finalizando a estilização do header */

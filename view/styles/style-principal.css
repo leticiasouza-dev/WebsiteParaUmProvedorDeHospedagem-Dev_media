@@ -209,3 +209,23 @@ td > p{
 .usuario,.espaco,.suporte{
     background-color: #f6f6f6;
 }
+
+            /* Finalizando a estilização da sessão das informações de hospedagem */
+
+            /* Iniciando a estilização da  sessão de anuncio 2*/
+
+.sessao-anuncio_2{
+    background-color: #2f86d6;
+    height: 100px;
+}
+
+.container-anuncio_2{
+    background-color: red;
+    width: 830px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.botao-tabela-com-precos{
+    position: absolute;
+}

@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+}
+header{
+    background-color: #2f86d6;
+    
+}
+
+.container-logo{
+    /* background-color: red; */
+    width: 300px;
+    margin-left: 300px;
+    position: relative;
+}
+
+.logo{
+    width: 90px;
+}
+
+.container-textos{
+
+}
